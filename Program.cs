@@ -6,7 +6,7 @@ using System.IO;
 
 namespace DapperInClass
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -41,6 +41,8 @@ namespace DapperInClass
                 repo.GetAllDepartments();
             }
             Console.WriteLine("Have a great day.");
+
+
         }
     }
 }
